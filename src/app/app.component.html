@@ -1,0 +1,39 @@
+
+
+<h1>welcome to registration page</h1>
+<div class="container-fluid">
+    <div class="row mt-3">
+        <div class="col-3">
+            <h2>Register Product</h2>
+            <dl>
+                <dt>Name</dt>
+                <dd><input type="text" [(ngModel)]="name" class="form-control" ></dd>
+               <dt>Price</dt>
+              
+                <!-- <dd><input type="text"  [(ngModel)]="Product.Price" class="form-control" ></dd>
+                <dt>Stock</dt>
+                <dd><input type="checkbox"  [(ngModel)]="Product.Stock" class="form-control" >Yes</dd> -->
+            </dl>
+            <button class="btn btn-primary">Submit</button>
+        </div>
+        <div class="col-9">
+            <h2>Product Details</h2>
+            <dl>
+                <dt>Name</dt>
+                <dd>{{Product.Name}}</dd>
+                <dt>Price</dt>
+                <dd>{{Product.Price}}</dd>
+                <dt>Stock</dt>
+                <dd>{{Product.Stock}}</dd>
+            </dl>
+
+
+        </div>
+
+
+    </div>
+
+
+
+</div>
+
